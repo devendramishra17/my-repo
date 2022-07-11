@@ -1,0 +1,2402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.3">
+    <description></description>
+    <groupId>79ea3c7a-8f81-18b1-ffff-ffff8fcba384</groupId>
+    <id>466b03cb-55c5-36fa-9f8a-1f23b79de748</id>
+    <name>Daily Application Report</name>
+    <snippet>
+        <connections>
+            <id>02129ab5-c617-3b30-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>f04a3e96-d239-34c4-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>9d412b55-3965-36dd-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>0938adce-a06b-3727-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>443d6b4b-d13f-3869-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>8a2fced0-33db-3c1e-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>20891454-80df-399c-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>17a9021a-899e-38fb-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>f04a3e96-d239-34c4-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>46ffb11e-8098-341d-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>8a2fced0-33db-3c1e-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>61275607-fa5d-37ae-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>60c682c5-16fd-3be1-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>5e726923-d6f6-3548-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>4388dbf0-2399-3023-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>798e1095-c1a6-3fa0-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>9d412b55-3965-36dd-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>daf2b183-c2fc-34a2-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>c59ffe20-2801-3d03-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>4388dbf0-2399-3023-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>443d6b4b-d13f-3869-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>cc9e4842-c31b-3583-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>78991469-be42-3df6-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>ffd4c72d-99e1-3210-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>d0eae00f-4245-30c8-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>1d68bd35-7735-393b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>067bf809-c500-3848-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>d329891a-b220-378b-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>ffd4c72d-99e1-3210-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>1d68bd35-7735-393b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>d6b7c2e7-26ae-322c-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>067bf809-c500-3848-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>5e726923-d6f6-3548-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>fab253f0-2d42-3cfd-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>daf2b183-c2fc-34a2-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>ba734417-7b64-340b-0000-000000000000</groupId>
+                <id>78991469-be42-3df6-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <processors>
+            <id>067bf809-c500-3848-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>840.0</x>
+                <y>192.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>Database Connection Pooling Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>SQL select query</key>
+                        <value>
+                            <name>SQL select query</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Record Mode</key>
+                        <value>
+                            <name>Record Mode</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>
+                            <name>Max Wait Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Column Names</key>
+                        <value>
+                            <name>Column Names</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>37c6329f-90b9-388d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>SQL select query</key>
+                        <value>select max(id) as logId from rdb_process_log where source='DailyApplicationReport' and is_processed=0</value>
+                    </entry>
+                    <entry>
+                        <key>Record Mode</key>
+                        <value>Multi-Record</value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>0 seconds</value>
+                    </entry>
+                    <entry>
+                        <key>Column Names</key>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Get Log ID</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.ExecuteSQLToJson</type>
+        </processors>
+        <processors>
+            <id>17a9021a-899e-38fb-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>1256.0</x>
+                <y>576.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>
+                            <name>Log Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>
+                            <name>Log Payload</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                        <value>
+                            <name>Attributes to Log</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>
+                            <name>attributes-to-log-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                        <value>
+                            <name>Attributes to Ignore</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                        <value>
+                            <name>attributes-to-ignore-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                        <value>
+                            <name>Log prefix</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>info</value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>.*</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Log</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.LogAttribute</type>
+        </processors>
+        <processors>
+            <id>1d68bd35-7735-393b-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>416.0</x>
+                <y>192.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>JDBC Connection Pool</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>
+                            <name>putsql-sql-statement</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>
+                            <name>Support Fragmented Transactions</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>
+                            <name>database-session-autocommit</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                        <value>
+                            <name>Transaction Timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>
+                            <name>Obtain Generated Keys</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>
+                            <name>rollback-on-failure</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>37c6329f-90b9-388d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>update daily_application_report_temp t set t.reason='Sales_Order_Id_Blank', t.vld_ind=0 where t.sales_order_id is null</value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>100</value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Check Blank Record</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>retry</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.PutSQL</type>
+        </processors>
+        <processors>
+            <id>4388dbf0-2399-3023-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>1232.0</x>
+                <y>0.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>Database Connection Pooling Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>SQL select query</key>
+                        <value>
+                            <name>SQL select query</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Record Mode</key>
+                        <value>
+                            <name>Record Mode</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>
+                            <name>Max Wait Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Column Names</key>
+                        <value>
+                            <name>Column Names</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>5f7f4a74-2d66-39ae-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>SQL select query</key>
+                        <value>select
+/* Sales Order Info. */
+  so.object_id as "Sales Order Id",
+  so.object_name as "Sales Order",
+  so_status.value "Sales Order Status",
+  to_char(so.sales_order_submit_date  - interval '9 hours', 'yyyy/mm/dd hh24:mi:ss') as "Order Submit Date",
+  to_char(so.original_submit_date  - interval '9 hours', 'yyyy/mm/dd hh24:mi:ss') as "Original Order Submit Date",
+  to_char(so.processed_when_date  - interval '9 hours', 'yyyy/mm/dd hh24:mi:ss') as "Order Completion Date",
+  lv_so_initiated_by.value as "Channel",
+  shop_group.shop_group_id as "Shop Group Id",
+  shop.shop_id as "Shop Id",
+  oi.application_type as "Application Type",
+  oi."MobileLine Sales Flag" as "MobileLine Sales Flag",
+  oi."Device Sales Flag" as "Device Sales Flag",
+  oi."Accessory Sales Flag" as "Accessory Sales Flag",
+/* Customer Account Info. */
+  rcas.customer_account_number_id as "Customer Account Number",
+  cust_cat.object_name as "Customer Type",
+  lv_rcas_status.value as "Customer Account Status",
+  rcas.easy_id as "Easy Id",
+  prefecture.object_name as "Prefecture",
+  to_char(rcas.BIRTHDAY_DATE - interval '9 hours', 'yyyy/mm/dd') as "Birthday",
+  case
+    when extract(year
+  from
+    age(to_date(  '${targetDateTime}0024MI'  , 'yyyyMMddHH24MI'), rcas.BIRTHDAY_DATE)) &lt; 18 then 'Y'
+    else 'N'
+  end as "Minor Flag",
+  lv_gender.value as "Gender",
+/* Mobile Line Info. */
+  bpi.object_id as "BPI Id",
+  oi.object_id as "Order Item Id",
+  oi.product_offering_id as "Product Id",
+  oi.product_offering_name as "Product Name",
+  coalesce(bpi.network_profile_type, oi.network_profile_type) as "Network Profile Type",
+  case
+  	when oi.is_mobile_Line = 1 then 'MobileLine'
+  	when oi.is_device = 1 then 'Device'
+  	when oi.is_accessory = 1 then 'Accessory'
+	else 'Others'
+  end as "Product Type",
+  bpi.service_uid as "Service Uid",
+  coalesce(phone_num.phone_number, oi.port_in__msisdn) as "Phone Number",
+  sim_cards.imsi as "IMSI",
+  sim_cards.iccid as "ICCID",
+  oi.ra_number as "MVNO RA NUMBER",
+  oi.mvno_shop_id  as "MVNO Shop ID",
+  lv_bpi_status.value as "Mobile Line Status",
+  to_char(oi.mvno_start_date_date  - interval '9 hours', 'yyyy/mm/dd hh24:mi:ss') as "MVNO Contract Start Date",
+  oi.port_in_code as "MNP Number",
+  top_bpi.coupon_number as "Coupon Serial Number",
+  cardinstruments.brand_code as "Card Company For Monthly Payment",
+  oi."Voice Mail Flag" as "Voice Mail Flag",
+  oi."Call Waiting Flag" as "Call Waiting Flag",
+  oi."Call Transfer Flag" as "Call Transfer Flag",
+  oi."International Roaming Flag" as "International Roaming Flag",
+  oi."Remote Support Flag" as "Remote Support Flag",
+  oi."Device Warranty Hikari Tsushin Flag" as "Device Warranty Hikari Tsushin Flag",
+  oi."Wifi Econnect Flag" as "Wifi Econnect Flag",
+  oi."Mobile Security Flag" as "Mobile Security Flag",
+  oi."i_Filter Flag" as "i_Filter Flag",
+  oi."Priority Call Flag" as "Priority Call Flag",
+  oi."Preferred Phone Number Flag" as "Preferred Phone Number Flag",
+  (
+  select
+    coalesce(max( case primary_email.personaldata_commecialuse_flag when 7777001 then 'Y' end ), 'N')
+  from
+    contacts
+  left join emails primary_email on
+    contacts.primary_email_id = primary_email.object_id
+  where
+    contacts.customer_id = rcas.object_id) as "Announce Mail Flag",
+  lv_ui.value as "Unlimited International Talk Flag",
+  oi.ichiba_order_id as "ICHIBA Order ID",
+  coalesce(privacy_info_bpi.value, privacy_info_oi.value) as "Privacy Info Flg",
+  to_char(current_timestamp - interval '9 hours', 'yyyy/mm/dd hh24:mi:ss') as "Insert Timestamp"
+from
+  salesorders so
+  cross join lateral ( with recursive oi_hierarchy as
+  (
+	  select
+	    orderitmes.parent_id so_id,
+	    orderitmes.parent_id,
+	    orderitmes.object_id,
+	    orderitmes.object_name,
+	    orderitmes.ichiba_order_id,
+	    orderitmes.created_when_date,
+	    orderitmes.product_offering_id ,
+	    productofferings.object_name product_offering_name,
+	    productofferings.business_domain_lv,
+	    orderitmes.reference_to_bpi_id,
+	    orderitmes.reference_to_bpi_id top_bpi_id,
+	    case when productofferings.business_domain_lv = 9146703400813779251 /* Mobile Line */ then orderitmes.object_id end mobile_line_oi_id,
+	    orderitmes.action_,
+	    orderitmes.process_type_lv,
+	    orderitmes.unlimited_internationaltalk_lv,
+	    orderitmes.phone_number_id, 
+	    orderitmes.msisdn,
+	    orderitmes.mnp_code, 
+	    orderitmes.ra_number, 
+	    orderitmes.mvno_start_date_date, 
+	    orderitmes.mvno_shop_id,
+	    orderitmes.network_profile_type,
+	    orderitmes.privacy_info_t_and_c_apply_lv
+	  from
+	    orderitmes
+	  join productofferings on
+	    productofferings.object_id = orderitmes.product_offering_id
+	  where
+	    parent_id = so.object_id
+	union all
+	  select
+	    oi_hierarchy.so_id,
+	    orderitmes.parent_id,
+	    orderitmes.object_id,
+	    orderitmes.object_name,
+	    orderitmes.ichiba_order_id,
+	    orderitmes.created_when_date,
+	    orderitmes.product_offering_id ,
+	    productofferings.object_name product_offering_name,
+	    productofferings.business_domain_lv,
+	    orderitmes.reference_to_bpi_id,
+	    oi_hierarchy.top_bpi_id,
+	    coalesce(case when productofferings.business_domain_lv = 9146703400813779251 /* Mobile Line */ then orderitmes.object_id end, mobile_line_oi_id) mobile_line_oi_id,
+	    orderitmes.action_,
+	    orderitmes.process_type_lv,
+	    orderitmes.unlimited_internationaltalk_lv,
+	    orderitmes.phone_number_id, 
+	    orderitmes.msisdn,
+	    orderitmes.mnp_code, 
+	    orderitmes.ra_number, 
+	    coalesce(orderitmes.mvno_start_date_date, oi_hierarchy.mvno_start_date_date) as mvno_start_date_date, 
+	    orderitmes.mvno_shop_id,
+	    coalesce(orderitmes.network_profile_type, oi_hierarchy.network_profile_type) as network_profile_type,
+	    coalesce(orderitmes.privacy_info_t_and_c_apply_lv, oi_hierarchy.privacy_info_t_and_c_apply_lv) as privacy_info_t_and_c_apply_lv
+	  from
+	    oi_hierarchy
+	  join orderitmes on
+	    orderitmes.parent_id = oi_hierarchy.object_id
+	  join productofferings on
+	    productofferings.object_id = orderitmes.product_offering_id
+	  ) select
+    oi4report.object_id,
+    oi4report.object_name,
+    oi4report.ichiba_order_id,
+    oi4report.reference_to_bpi_id,
+    oi4report.created_when_date,
+    oi4report.top_bpi_id,
+    oi4report.product_offering_id,
+    oi4report.phone_number_id, 
+    oi4report.mnp_code, 
+    oi4report.ra_number, 
+    oi4report.mvno_start_date_date, 
+    oi4report.mvno_shop_id,
+    oi4report.product_offering_name,
+    oi4report.unlimited_internationaltalk_lv,
+    oi4report.network_profile_type,
+    oi4report.privacy_info_t_and_c_apply_lv,
+    case
+      max(case when business_domain_lv = 9146703400813779251 /* Mobile Line */ then 1 else 0 end) over() + max(case when business_domain_lv in (9152807217813112614 /* Equipment */)then 2 else 0 end) over() + max(case when business_domain_lv in (9152807224613112615 /* Accessory */)then 4 else 0 end) over()
+      when 1 then 'MobileLine'
+      when 2 then 'Device'
+      when 3 then 'MobileLine + Device'
+      when 4 then 'Accessory'
+      when 5 then 'MobileLine + Accessory'
+      when 6 then 'Device + Accessory'
+      when 7 then 'MobileLine + Device + Accessory'
+    end application_type,
+    case
+      when business_domain_lv = 9146703400813779251 /* Mobile Line */
+      then 1
+      else 0
+    end is_mobile_Line,
+    case
+      when business_domain_lv = 9152807217813112614 /* Equipment */
+      then 1
+      else 0
+    end is_device,
+    case
+      when business_domain_lv = 9152807224613112615 /* Accessory */
+      then 1
+      else 0
+    end is_accessory,
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9146703400813779251 /* Mobile Line */), 'N') as "MobileLine Sales Flag",
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9152807217813112614 /* Equipment */), 'N') as "Device Sales Flag",
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9152807224613112615 /* Accessory */), 'N') as "Accessory Sales Flag",
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9155555815313815636 /* Preferred Phone Number*/ and mobile_line_oi_id = oi4report.object_id), 'N') as "Preferred Phone Number Flag",
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9153789641713124378 /* Answering Machine */ and mobile_line_oi_id = oi4report.object_id), 'N') as "Voice Mail Flag",
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9153921985113133482 /* Call Waiting */ and mobile_line_oi_id = oi4report.object_id), 'N') as "Call Waiting Flag",
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9153662222713112133 /* Call Forwarding */ and mobile_line_oi_id = oi4report.object_id), 'N') as "Call Transfer Flag",
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9153789641713124382 /* International Roaming */ and mobile_line_oi_id = oi4report.object_id), 'N') as "International Roaming Flag",
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9153921985813133483 /* Remote Support */ and mobile_line_oi_id = oi4report.object_id), 'N') as "Remote Support Flag",
+    coalesce((select max('Y') from oi_hierarchy where product_offering_id = 9152643379565896898 /* SIM Basis Compensation */ and mobile_line_oi_id = oi4report.object_id), 'N') as "Device Warranty Hikari Tsushin Flag",
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9153921986413133484 /* Mobile Wi-Fi */ and mobile_line_oi_id = oi4report.object_id), 'N') as "Wifi Econnect Flag",
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9153921987013133485 /* Mobile Security */ and mobile_line_oi_id = oi4report.object_id), 'N') as "Mobile Security Flag",
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9153170156913079481 /* i-Filter */ and mobile_line_oi_id = oi4report.object_id), 'N') as "i_Filter Flag",
+    coalesce((select max('Y') from oi_hierarchy where business_domain_lv = 9153689886213111709 /* Priority Call */ and mobile_line_oi_id = oi4report.object_id), 'N') as "Priority Call Flag",
+    case when business_domain_lv = 9146703400813779251 /* Mobile Line */ then
+      (select
+            mnp_code
+          from
+            oi_hierarchy oih
+          where
+            oih.product_offering_id = 9154316361965541323 /* Port-In Phone Number */
+            and oi4report.object_id = oih.parent_id 
+      )
+    end as port_in_code,
+    case when business_domain_lv = 9146703400813779251 /* Mobile Line */ then
+      (select
+            msisdn
+          from
+            oi_hierarchy oih
+          where
+            oih.product_offering_id = 9154316361965541323 /* Port-In Phone Number */
+            and oi4report.object_id = oih.parent_id 
+      )
+    end as port_in__msisdn
+  from
+    oi_hierarchy oi4report
+  where
+    oi4report.business_domain_lv in (
+    9152807217813112614 /* Equipment */,
+    9152807224613112615 /* Accessory */,
+    9146703400813779251 /* Mobile Line */
+    )
+    and oi4report.action_ = 'Add'
+    and oi4report.process_type_lv = 9153405055113089478 /* New */
+    ) oi
+    	left join nc_list_values lv_ui on lv_ui.list_value_id = oi.unlimited_internationaltalk_lv
+	left join businessproductinstances bpi on oi.reference_to_bpi_id = bpi.object_id
+	left join nc_list_values lv_bpi_status on lv_bpi_status.list_value_id = bpi.extended_bpi_status_lv
+	left join customerlocations cust_loc on cust_loc.object_id = bpi.customer_location_id
+	left join residentialcustomeraccounts rcas on rcas.object_id = so.customer_account_id
+	left join customercategories cust_cat on cust_cat.object_id = rcas.customer_category_id
+	left join rm_phone_number phone_num on phone_num.object_id = oi.phone_number_id and oi.is_mobile_Line = 1
+	left join sim_cards on sim_cards.object_id = bpi.sim_card_id and oi.is_mobile_Line = 1
+	left join shops shop on shop.object_id = so.current_shop_id
+	left join shopgroups shop_group on shop.parent_id = shop_group.object_id
+	left join nc_list_values lv_so_initiated_by on lv_so_initiated_by.list_value_id = so.initiated_by_lv
+	left join nc_list_values lv_gender on lv_gender.list_value_id = rcas.gender_lv
+	left join lateral (with recursive pref_h as (
+	  select
+	    object_id start_address_unit_id,
+	    address_unit_subtype_id,
+	    object_name,
+	    object_id ,
+	    parent_id
+	  from
+	    addressunits
+	  where
+	    addressunits.object_id = cust_loc.address_id
+	union all
+	  select
+	    pref_h.start_address_unit_id,
+	    addressunits.address_unit_subtype_id,
+	    addressunits.object_name,
+	    addressunits.object_id,
+	    addressunits.parent_id
+	  from
+	    pref_h
+	  join addressunits on
+	    pref_h.parent_id = addressunits.object_id
+	    and pref_h.address_unit_subtype_id != 9152816284013110480 /* Prefecture */
+    )
+  select
+    *
+  from
+    pref_h
+  where
+    address_unit_subtype_id = 9152816284013110480 /* Prefecture */
+    ) prefecture on prefecture.start_address_unit_id = cust_loc.address_id
+  left join businessproductinstances top_bpi on top_bpi.object_id = oi.top_bpi_id and oi.is_mobile_line = 1
+  left join nc_list_values lv_rcas_status on lv_rcas_status.list_value_id = rcas.status_lv
+  left join billingaccount on billingaccount.object_id = bpi.billing_account_id
+  left join cardinstruments on cardinstruments.object_id = billingaccount.monthly_payments
+  left join nc_list_values so_status on so_status.list_value_id = so.sales_order_status_lv
+  left join nc_list_values privacy_info_oi on privacy_info_oi.list_value_id = oi.privacy_info_t_and_c_apply_lv
+  left join nc_list_values privacy_info_bpi on privacy_info_bpi.list_value_id = bpi.privacy_info_t_and_c_apply_lv
+where 1 = 1
+  and so.sales_order_submit_date &gt;= date_trunc( 'day', to_timestamp(  '${targetDateTime}0024MI'  , 'yyyyMMddHH24MI')::timestamp(0)) - interval '1 day'
+  and so.sales_order_submit_date &lt; date_trunc( 'day', to_timestamp(  '${targetDateTime}0024MI'  , 'yyyyMMddHH24MI')::timestamp(0))
+  and oi.is_mobile_line = 1</value>
+                    </entry>
+                    <entry>
+                        <key>Record Mode</key>
+                        <value>Single-Record</value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>0 seconds</value>
+                    </entry>
+                    <entry>
+                        <key>Column Names</key>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Fetch Record</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.ExecuteSQLToJson</type>
+        </processors>
+        <processors>
+            <id>443d6b4b-d13f-3869-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>832.0</x>
+                <y>0.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>JDBC Connection Pool</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>
+                            <name>putsql-sql-statement</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>
+                            <name>Support Fragmented Transactions</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>
+                            <name>database-session-autocommit</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                        <value>
+                            <name>Transaction Timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>
+                            <name>Obtain Generated Keys</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>
+                            <name>rollback-on-failure</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>37c6329f-90b9-388d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>delete from daily_application_report_temp</value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>100</value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Delete temp</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>retry</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.PutSQL</type>
+        </processors>
+        <processors>
+            <id>5e726923-d6f6-3548-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>1232.0</x>
+                <y>192.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-customProcessor-nar</artifact>
+                <group>innoeye</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Class Name</key>
+                        <value>
+                            <name>Class Name</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Java Custom Code</key>
+                        <value>
+                            <name>Java Custom Code</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>External Jars To Compile</key>
+                        <value>
+                            <name>External Jars To Compile</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>Database Connection Pooling Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Distributed Cache Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.distributed.cache.client.DistributedMapCacheClient</identifiesControllerService>
+                            <name>Distributed Cache Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Cache Entry Identifier</key>
+                        <value>
+                            <name>Cache Entry Identifier</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Class Name</key>
+                        <value>DailyApplicationUpdateJavaSnippet</value>
+                    </entry>
+                    <entry>
+                        <key>Java Custom Code</key>
+                        <value>package inn.custom.processor;
+
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Types;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+import org.apache.nifi.flowfile.FlowFile;
+import org.apache.nifi.processor.ProcessContext;
+import org.apache.nifi.processor.ProcessSession;
+import org.apache.nifi.processor.Relationship;
+import org.apache.nifi.processor.io.InputStreamCallback;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class DailyApplicationUpdateJavaSnippet implements Runnable {
+	Logger logger = LoggerFactory.getLogger(DailyApplicationUpdateJavaSnippet.class);
+	@Override
+	public void run() {
+	}
+
+	public static final Relationship REL_SUCCESS = new Relationship.Builder().name("success").description("Success")
+			.build();
+
+	public static final Relationship REL_FAILURE = new Relationship.Builder().name("failure").description("Failure")
+			.build();
+
+	public static long copy(final InputStream source, final OutputStream destination) throws IOException {
+		final byte[] buffer = new byte[8192];
+		int len;
+		long totalCount = 0L;
+		while ((len = source.read(buffer)) &gt; 0) {
+			destination.write(buffer, 0, len);
+			totalCount += len;
+		}
+		return totalCount;
+	}
+
+
+	protected byte[] readContent(final ProcessSession session, final FlowFile flowFile) {
+		final ByteArrayOutputStream baos = new ByteArrayOutputStream((int) flowFile.getSize() + 1);
+		session.read(flowFile, new InputStreamCallback() {
+			public void process(final InputStream in) throws IOException {
+				copy(in, baos);
+			}
+		});
+		return baos.toByteArray();
+	}
+	public FlowFile runSnippet(FlowFile flowFile,ProcessSession session, ProcessContext context, Connection con,String cacheValue) 
+			throws IOException, JSONException, SQLException, ClassNotFoundException, ParseException{
+		System.out.println("==================== Inside runsnippet with flow file ========================");
+		try {
+			byte[] readContent = readContent(session, flowFile);
+			String cntent = new String(readContent);
+			JSONArray jsonarray = new JSONArray(cntent);
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+			SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy/MM/dd");
+			PreparedStatement pstmt1 = con.prepareStatement(
+					"insert into daily_application_report_temp(application_type,channel,call_transfer_flag,customer_type,birthday,device_sales_flag,"
+							+ "remote_support_flag,gender,sales_order_status,order_submit_date,prefecture,customer_account_number,mobileline_sales_flag,"
+							+ "international_roaming_flag, network_profile_type,customer_account_status, easy_id, call_waiting_flag, preferred_phone_number_flag,"
+							+ "original_order_submit_date,sales_order_id,product_id,mobile_security_flag,announce_mail_flag,mobile_line_status,mnp_number,"
+							+ "shop_group_id,insert_timestamp,i_filter_flag,minor_flag,bpi_id,unlimited_international_talk_flag,product_name,order_item_id,shop_id,"
+							+ "accessory_sales_flag,product_type,voice_mail_flag,privacy_info_flag,phone_number,priority_call_flag,sales_order,wifi_econnect_flag,device_warranty_hikari_tsushin_flag,"
+							+ "order_completion_date,service_uid,imsi,"
+							+ "iccid,mvno_ra_number,mvno_shop_id,mvno_contract_start_date,coupon_serial_number,card_company_for_monthly_payment,ichiba_order_id,created_time) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");					
+			con.setAutoCommit(false);
+
+			if (jsonarray.length() &gt; 0) {
+				int i=1;
+				for (int j = 0; j&lt;jsonarray.length(); j++) {
+
+					try {
+						JSONObject tempObject = jsonarray.getJSONObject(j);	
+						pstmt1.setString(1, tempObject.has("Application Type") &amp;&amp; tempObject.get("Application Type")!=null ? tempObject.getString("Application Type"):null);
+						pstmt1.setString(2, tempObject.has("Channel") &amp;&amp; tempObject.get("Channel")!=null ?tempObject.getString("Channel"):null);
+						pstmt1.setString(3, tempObject.has("Call Transfer Flag") &amp;&amp; tempObject.get("Call Transfer Flag")!=null ?tempObject.getString("Call Transfer Flag"):null);
+						pstmt1.setString(4, tempObject.has("Customer Type") &amp;&amp; tempObject.get("Customer Type")!=null ?tempObject.getString("Customer Type"):null);
+						if(tempObject.has("Birthday") &amp;&amp; tempObject.get("Birthday")!=null &amp;&amp; !tempObject.getString("Birthday").isEmpty()) {
+							pstmt1.setDate(5, new java.sql.Date(sdf1.parse(tempObject.getString("Birthday")).getTime()));
+						}else {
+							pstmt1.setNull(5, Types.TIMESTAMP);
+						}
+						pstmt1.setString(6, tempObject.has("Device Sales Flag") &amp;&amp; tempObject.get("Device Sales Flag")!=null ?tempObject.getString("Device Sales Flag"):null);						
+						pstmt1.setString(7, tempObject.has("Remote Support Flag") &amp;&amp; tempObject.get("Remote Support Flag")!=null ?tempObject.getString("Remote Support Flag"):null);
+						pstmt1.setString(8, tempObject.has("Gender") &amp;&amp; tempObject.get("Gender")!=null ?tempObject.getString("Gender"):null);
+						pstmt1.setString(9, tempObject.has("Sales Order Status") &amp;&amp; tempObject.get("Sales Order Status")!=null ?tempObject.getString("Sales Order Status"):null);
+						if(tempObject.has("Order Submit Date") &amp;&amp; tempObject.get("Order Submit Date")!=null &amp;&amp; !tempObject.getString("Order Submit Date").isEmpty()) {				
+							pstmt1.setTimestamp(10,new java.sql.Timestamp(sdf.parse(tempObject.getString("Order Submit Date")).getTime()));
+						}else {
+							pstmt1.setNull(10, Types.TIMESTAMP);
+						}
+						pstmt1.setString(11, tempObject.has("Prefecture") &amp;&amp; tempObject.get("Prefecture")!=null ?tempObject.getString("Prefecture"):null);
+						pstmt1.setString(12, tempObject.has("Customer Account Number") &amp;&amp; tempObject.get("Customer Account Number")!=null ?tempObject.getString("Customer Account Number"):null);
+						pstmt1.setString(13, tempObject.has("MobileLine Sales Flag") &amp;&amp; tempObject.get("MobileLine Sales Flag")!=null ?tempObject.getString("MobileLine Sales Flag"):null);
+						pstmt1.setString(14, tempObject.has("International Roaming Flag") &amp;&amp; tempObject.get("International Roaming Flag")!=null ?tempObject.getString("International Roaming Flag"):null);
+						pstmt1.setString(15, tempObject.has("Network Profile Type") &amp;&amp; tempObject.get("Network Profile Type")!=null ?tempObject.getString("Network Profile Type"):null);
+						pstmt1.setString(16, tempObject.has("Customer Account Status") &amp;&amp; tempObject.get("Customer Account Status")!=null ?tempObject.getString("Customer Account Status"):null);
+						pstmt1.setString(17, tempObject.has("Easy Id") &amp;&amp; tempObject.get("Easy Id")!=null ?tempObject.getString("Easy Id"):null);
+						pstmt1.setString(18, tempObject.has("Call Waiting Flag") &amp;&amp; tempObject.get("Call Waiting Flag")!=null ?tempObject.getString("Call Waiting Flag"):null);
+						pstmt1.setString(19, tempObject.has("Preferred Phone Number Flag") &amp;&amp; tempObject.get("Preferred Phone Number Flag")!=null ?tempObject.getString("Preferred Phone Number Flag"):null);
+						if(tempObject.has("Original Order Submit Date") &amp;&amp; tempObject.get("Original Order Submit Date")!=null &amp;&amp; !tempObject.getString("Original Order Submit Date").isEmpty()) {						
+							pstmt1.setTimestamp(20,new java.sql.Timestamp(sdf.parse(tempObject.getString("Original Order Submit Date")).getTime()));
+						}else {
+							pstmt1.setNull(20, Types.TIMESTAMP);
+						}
+						if(tempObject.has("Sales Order Id") &amp;&amp; tempObject.get("Sales Order Id")!=null) {
+							pstmt1.setLong(21,tempObject.getLong("Sales Order Id"));
+						} else {
+							pstmt1.setNull(21,Types.BIGINT);
+						}
+						if(tempObject.has("Product Id") &amp;&amp; tempObject.get("Product Id")!=null) {
+							pstmt1.setLong(22,tempObject.getLong("Product Id"));	
+						} else {
+							pstmt1.setNull(22,Types.BIGINT);
+						}
+						pstmt1.setString(23, tempObject.has("Mobile Security Flag") &amp;&amp; tempObject.get("Mobile Security Flag")!=null ?tempObject.getString("Mobile Security Flag"):null);
+						pstmt1.setString(24, tempObject.has("Announce Mail Flag") &amp;&amp; tempObject.get("Announce Mail Flag")!=null ?tempObject.getString("Announce Mail Flag"):null);
+						pstmt1.setString(25, tempObject.has("Mobile Line Status") &amp;&amp; tempObject.get("Mobile Line Status")!=null ?tempObject.getString("Mobile Line Status"):null);
+						pstmt1.setString(26, tempObject.has("MNP Number") &amp;&amp; tempObject.get("MNP Number")!=null ?tempObject.getString("MNP Number"):null);
+						if(tempObject.has("Shop Group Id") &amp;&amp; tempObject.get("Shop Group Id")!=null) {
+							pstmt1.setLong(27,Long.parseLong(tempObject.getString("Shop Group Id")));
+						} else {
+							pstmt1.setNull(27,Types.BIGINT);
+						}
+						if(tempObject.has("Insert Timestamp") &amp;&amp; tempObject.get("Insert Timestamp")!=null &amp;&amp; !tempObject.getString("Insert Timestamp").isEmpty()) {						
+							pstmt1.setTimestamp(28,new java.sql.Timestamp(sdf.parse(tempObject.getString("Insert Timestamp")).getTime()));
+						}else {
+							pstmt1.setNull(28, Types.TIMESTAMP);
+						}
+						pstmt1.setString(29, tempObject.has("i_Filter Flag") &amp;&amp; tempObject.get("i_Filter Flag")!=null ?tempObject.getString("i_Filter Flag"):null);
+						pstmt1.setString(30, tempObject.has("Minor Flag") &amp;&amp; tempObject.get("Minor Flag")!=null ?tempObject.getString("Minor Flag"):null);
+						if(tempObject.has("BPI Id") &amp;&amp; tempObject.get("BPI Id")!=null) {
+							pstmt1.setLong(31,tempObject.getLong("BPI Id"));
+						} else {
+							pstmt1.setNull(31,Types.BIGINT);	
+						}
+						pstmt1.setString(32, tempObject.has("Unlimited International Talk Flag") &amp;&amp; tempObject.get("Unlimited International Talk Flag")!=null ?tempObject.getString("Unlimited International Talk Flag"):null);
+						pstmt1.setString(33, tempObject.has("Product Name") &amp;&amp; tempObject.get("Product Name")!=null ?tempObject.getString("Product Name"):null);
+						if(tempObject.has("Order Item Id") &amp;&amp; tempObject.get("Order Item Id")!=null) {
+							pstmt1.setLong(34, tempObject.getLong("Order Item Id"));
+						} else {
+							pstmt1.setNull(34,Types.BIGINT);	
+						}
+						pstmt1.setString(35, tempObject.has("Shop Id") &amp;&amp; tempObject.get("Shop Id")!=null ?tempObject.getString("Shop Id"):null);
+						pstmt1.setString(36, tempObject.has("Accessory Sales Flag") &amp;&amp; tempObject.get("Accessory Sales Flag")!=null ?tempObject.getString("Accessory Sales Flag"):null);
+						pstmt1.setString(37, tempObject.has("Product Type") &amp;&amp; tempObject.get("Product Type")!=null ?tempObject.getString("Product Type"):null);
+						pstmt1.setString(38, tempObject.has("Voice Mail Flag") &amp;&amp; tempObject.get("Voice Mail Flag")!=null ?tempObject.getString("Voice Mail Flag"):null);
+						pstmt1.setString(39, tempObject.has("Privacy Info Flg") &amp;&amp; tempObject.get("Privacy Info Flg")!=null ?tempObject.getString("Privacy Info Flg"):null);
+						pstmt1.setString(40, tempObject.has("Phone Number") &amp;&amp; tempObject.get("Phone Number")!=null ?tempObject.getString("Phone Number"):null);
+						pstmt1.setString(41, tempObject.has("Priority Call Flag") &amp;&amp; tempObject.get("Priority Call Flag")!=null ?tempObject.getString("Priority Call Flag"):null);
+						pstmt1.setString(42, tempObject.has("Sales Order") &amp;&amp; tempObject.get("Sales Order")!=null ?tempObject.getString("Sales Order"):null);
+						pstmt1.setString(43, tempObject.has("Wifi Econnect Flag") &amp;&amp; tempObject.get("Wifi Econnect Flag")!=null ?tempObject.getString("Wifi Econnect Flag"):null);
+						pstmt1.setString(44, tempObject.has("Device Warranty Hikari Tsushin Flag") &amp;&amp; tempObject.get("Device Warranty Hikari Tsushin Flag")!=null ?tempObject.getString("Device Warranty Hikari Tsushin Flag"):null);
+						if(tempObject.has("Order Completion Date") &amp;&amp; tempObject.getString("Order Completion Date")!=null &amp;&amp; !tempObject.getString("Order Completion Date").isEmpty()) {
+							pstmt1.setTimestamp(45,new java.sql.Timestamp(sdf.parse(tempObject.getString("Order Completion Date")).getTime()));
+						}else {
+							pstmt1.setNull(45, Types.TIMESTAMP);
+						}
+						pstmt1.setString(46, tempObject.has("Service Uid") &amp;&amp; tempObject.get("Service Uid")!=null ?tempObject.getString("Service Uid"):null);
+						pstmt1.setString(47, tempObject.has("IMSI") &amp;&amp; tempObject.get("IMSI")!=null ?tempObject.getString("IMSI"):null);
+						pstmt1.setString(48, tempObject.has("ICCID") &amp;&amp; tempObject.get("ICCID")!=null ?tempObject.getString("ICCID"):null);
+						pstmt1.setString(49, tempObject.has("MVNO RA NUMBER") &amp;&amp; tempObject.get("MVNO RA NUMBER")!=null ?tempObject.getString("MVNO RA NUMBER"):null);
+						pstmt1.setString(50, tempObject.has("MVNO Shop ID") &amp;&amp; tempObject.get("MVNO Shop ID")!=null ?tempObject.getString("MVNO Shop ID"):null);
+
+						if(tempObject.has("MVNO Contract Start Date") &amp;&amp; tempObject.get("MVNO Contract Start Date")!=null &amp;&amp; !tempObject.getString("MVNO Contract Start Date").isEmpty()) {		
+							pstmt1.setTimestamp(51,new java.sql.Timestamp(sdf.parse(tempObject.getString("MVNO Contract Start Date")).getTime()));
+						}else {
+							pstmt1.setNull(51, Types.TIMESTAMP);
+						}
+						pstmt1.setString(52, tempObject.has("Coupon Serial Number") &amp;&amp; tempObject.get("Coupon Serial Number")!=null ?tempObject.getString("Coupon Serial Number"):null);
+						pstmt1.setString(53, tempObject.has("Card Company For Monthly Payment") &amp;&amp; tempObject.get("Card Company For Monthly Payment")!=null ?tempObject.getString("Card Company For Monthly Payment"):null);
+						pstmt1.setString(54, tempObject.has("ICHIBA Order ID") &amp;&amp; tempObject.get("ICHIBA Order ID")!=null ?tempObject.getString("ICHIBA Order ID"):null);
+						pstmt1.setTimestamp(55, new java.sql.Timestamp(Calendar.getInstance().getTimeInMillis()));
+						pstmt1.addBatch();						
+						if (i%1000==0 || i==jsonarray.length()) {
+							pstmt1.executeBatch();
+							con.commit();
+							pstmt1.clearBatch();
+						}
+						i++;
+					} catch (Exception e) {
+						logger.error("Exception in Main DailyApplicationUpdateJavaSnippet : {} " + e.toString());
+					}
+				}
+				pstmt1.executeBatch();
+				con.commit();
+			}
+		}
+		catch(Exception e) {
+			logger.error("Exception in Main DailyApplicationUpdateJavaSnippet : {} " + e.toString());
+			flowFile = session.putAttribute(flowFile, "Exception", e.toString());
+			session.transfer(flowFile, REL_FAILURE);
+			return flowFile;
+		}
+		flowFile = session.putAttribute(flowFile, "message", "file created successfully");
+		session.transfer(flowFile, REL_SUCCESS);
+		return flowFile;
+	}
+}</value>
+                    </entry>
+                    <entry>
+                        <key>External Jars To Compile</key>
+                    </entry>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>37c6329f-90b9-388d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>Distributed Cache Service</key>
+                    </entry>
+                    <entry>
+                        <key>Cache Entry Identifier</key>
+                        <value>${hash.value}</value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Process Record</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>original</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>inn.custom.processor.JavaSnippet</type>
+        </processors>
+        <processors>
+            <id>61275607-fa5d-37ae-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>File Size</key>
+                        <value>
+                            <name>File Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Data Format</key>
+                        <value>
+                            <name>Data Format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Unique FlowFiles</key>
+                        <value>
+                            <name>Unique FlowFiles</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>generate-ff-custom-text</key>
+                        <value>
+                            <name>generate-ff-custom-text</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>targetDateTime</key>
+                        <value>
+                            <name>targetDateTime</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>PRIMARY</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>File Size</key>
+                        <value>0B</value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>Data Format</key>
+                        <value>Text</value>
+                    </entry>
+                    <entry>
+                        <key>Unique FlowFiles</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>generate-ff-custom-text</key>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                    <entry>
+                        <key>targetDateTime</key>
+                        <value>${now():format('yyyyMMdd')}</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>5000000 min</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Start</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.GenerateFlowFile</type>
+        </processors>
+        <processors>
+            <id>78991469-be42-3df6-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>8.0</x>
+                <y>400.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>JDBC Connection Pool</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>
+                            <name>putsql-sql-statement</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>
+                            <name>Support Fragmented Transactions</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>
+                            <name>database-session-autocommit</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                        <value>
+                            <name>Transaction Timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>
+                            <name>Obtain Generated Keys</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>
+                            <name>rollback-on-failure</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>37c6329f-90b9-388d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>insert into daily_application_report_2(created_time,application_type,channel,call_transfer_flag,customer_type,birthday,device_sales_flag,remote_support_flag,gender,sales_order_status,order_submit_date,prefecture,customer_account_number,mobileline_sales_flag,international_roaming_flag, network_profile_type,customer_account_status, easy_id, call_waiting_flag, preferred_phone_number_flag,original_order_submit_date,sales_order_id,product_id,mobile_security_flag,announce_mail_flag,mobile_line_status,mnp_number,shop_group_id,insert_timestamp,i_filter_flag,minor_flag,bpi_id,unlimited_international_talk_flag,product_name,order_item_id,shop_id,accessory_sales_flag,product_type,voice_mail_flag,privacy_info_flag,phone_number,priority_call_flag,sales_order,wifi_econnect_flag,device_warranty_hikari_tsushin_flag,order_completion_date,service_uid,imsi,iccid,mvno_ra_number,mvno_shop_id,mvno_contract_start_date,coupon_serial_number,card_company_for_monthly_payment,ichiba_order_id) SELECT mt.created_time,mt.application_type,mt.channel,mt.call_transfer_flag,mt.customer_type,mt.birthday,mt.device_sales_flag,mt.remote_support_flag,mt.gender,mt.sales_order_status,mt.order_submit_date,mt.prefecture,mt.customer_account_number,mt.mobileline_sales_flag,mt.international_roaming_flag,mt. network_profile_type,mt.customer_account_status,mt. easy_id,mt. call_waiting_flag,mt. preferred_phone_number_flag,mt.original_order_submit_date,mt.sales_order_id,mt.product_id,mt.mobile_security_flag,mt.announce_mail_flag,mt.mobile_line_status,mt.mnp_number,mt.shop_group_id,mt.insert_timestamp,mt.i_filter_flag,mt.minor_flag,mt.bpi_id,mt.unlimited_international_talk_flag,mt.product_name,mt.order_item_id,mt.shop_id,mt.accessory_sales_flag,mt.product_type,mt.voice_mail_flag,mt.privacy_info_flag,mt.phone_number,mt.priority_call_flag,mt.sales_order,mt.wifi_econnect_flag,mt.device_warranty_hikari_tsushin_flag,mt.order_completion_date,mt.service_uid,mt.imsi,mt.iccid,mt.mvno_ra_number,mt.mvno_shop_id,mt.mvno_contract_start_date,mt.coupon_serial_number,mt.card_company_for_monthly_payment,mt.ichiba_order_id FROM daily_application_report_temp mt join (select order_item_id, max(insert_timestamp) AS insert_timestamp from daily_application_report_temp GROUP BY order_item_id) tt on mt.order_item_id=tt.order_item_id and mt.insert_timestamp=tt.insert_timestamp</value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>100</value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Unique Insert</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>retry</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.PutSQL</type>
+        </processors>
+        <processors>
+            <id>8a2fced0-33db-3c1e-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>424.0</x>
+                <y>0.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>JDBC Connection Pool</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>
+                            <name>putsql-sql-statement</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>
+                            <name>Support Fragmented Transactions</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>
+                            <name>database-session-autocommit</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                        <value>
+                            <name>Transaction Timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>
+                            <name>Obtain Generated Keys</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>
+                            <name>rollback-on-failure</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>37c6329f-90b9-388d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>insert into rdb_process_log (source, start_time, processed_date) values('DailyApplicationReport', now(), now())</value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>100</value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Log Entry</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>retry</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.PutSQL</type>
+        </processors>
+        <processors>
+            <id>9d412b55-3965-36dd-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>848.0</x>
+                <y>400.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>Database Connection Pooling Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>SQL select query</key>
+                        <value>
+                            <name>SQL select query</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Record Mode</key>
+                        <value>
+                            <name>Record Mode</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>
+                            <name>Max Wait Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Column Names</key>
+                        <value>
+                            <name>Column Names</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>37c6329f-90b9-388d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>SQL select query</key>
+                        <value>select count(1) total_rec, count(case when vld_ind=0 then 1 end ) inv_rec, count(case when vld_ind=1 then 1 end ) vld_rec from daily_application_report_temp;</value>
+                    </entry>
+                    <entry>
+                        <key>Record Mode</key>
+                        <value>Multi-Record</value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>0 seconds</value>
+                    </entry>
+                    <entry>
+                        <key>Column Names</key>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Get Data Count</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.ExecuteSQLToJson</type>
+        </processors>
+        <processors>
+            <id>daf2b183-c2fc-34a2-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>416.0</x>
+                <y>400.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>JDBC Connection Pool</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>
+                            <name>putsql-sql-statement</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>
+                            <name>Support Fragmented Transactions</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>
+                            <name>database-session-autocommit</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                        <value>
+                            <name>Transaction Timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>
+                            <name>Obtain Generated Keys</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>
+                            <name>rollback-on-failure</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>37c6329f-90b9-388d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>insert into daily_application_report_error(created_time,application_type,channel,call_transfer_flag,customer_type,birthday,device_sales_flag,remote_support_flag,gender,sales_order_status,order_submit_date,prefecture,customer_account_number,mobileline_sales_flag,international_roaming_flag, network_profile_type,customer_account_status, easy_id, call_waiting_flag, preferred_phone_number_flag,original_order_submit_date,sales_order_id,product_id,mobile_security_flag,announce_mail_flag,mobile_line_status,mnp_number,shop_group_id,insert_timestamp,i_filter_flag,minor_flag,bpi_id,unlimited_international_talk_flag,product_name,order_item_id,shop_id,accessory_sales_flag,product_type,voice_mail_flag,privacy_info_flag,phone_number,priority_call_flag,sales_order,wifi_econnect_flag,device_warranty_hikari_tsushin_flag,order_completion_date,service_uid,imsi,iccid,mvno_ra_number,mvno_shop_id,mvno_contract_start_date,coupon_serial_number,card_company_for_monthly_payment,ichiba_order_id,reason,logid_fk) SELECT now(),mt.application_type,mt.channel,mt.call_transfer_flag,mt.customer_type,mt.birthday,mt.device_sales_flag,mt.remote_support_flag,mt.gender,mt.sales_order_status,mt.order_submit_date,mt.prefecture,mt.customer_account_number,mt.mobileline_sales_flag,mt.international_roaming_flag,mt. network_profile_type,mt.customer_account_status,mt. easy_id,mt. call_waiting_flag,mt. preferred_phone_number_flag,mt.original_order_submit_date,mt.sales_order_id,mt.product_id,mt.mobile_security_flag,mt.announce_mail_flag,mt.mobile_line_status,mt.mnp_number,mt.shop_group_id,mt.insert_timestamp,mt.i_filter_flag,mt.minor_flag,mt.bpi_id,mt.unlimited_international_talk_flag,mt.product_name,mt.order_item_id,mt.shop_id,mt.accessory_sales_flag,mt.product_type,mt.voice_mail_flag,mt.privacy_info_flag,mt.phone_number,mt.priority_call_flag,mt.sales_order,mt.wifi_econnect_flag,mt.device_warranty_hikari_tsushin_flag,mt.order_completion_date,mt.service_uid,mt.imsi,mt.iccid,mt.mvno_ra_number,mt.mvno_shop_id,mt.mvno_contract_start_date,mt.coupon_serial_number,mt.card_company_for_monthly_payment,mt.ichiba_order_id,mt.reason,${logId} FROM daily_application_report_temp mt where mt.vld_ind=0 and mt.reason is not null</value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>100</value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Log Error Records</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>retry</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.PutSQL</type>
+        </processors>
+        <processors>
+            <id>f04a3e96-d239-34c4-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>1256.0</x>
+                <y>400.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>JDBC Connection Pool</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>
+                            <name>putsql-sql-statement</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>
+                            <name>Support Fragmented Transactions</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>
+                            <name>database-session-autocommit</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                        <value>
+                            <name>Transaction Timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>
+                            <name>Obtain Generated Keys</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>
+                            <name>rollback-on-failure</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>37c6329f-90b9-388d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>update rdb_process_log set total_rec=${total_rec}, rec_loaded=${vld_rec}, rec_rejected=${inv_rec}, end_time=now(), processing_time=TIMEDIFF(end_time,start_time),is_processed=1 where id=${logId}</value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>100</value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Update Log Info</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>retry</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.PutSQL</type>
+        </processors>
+        <processors>
+            <id>ffd4c72d-99e1-3210-0000-000000000000</id>
+            <parentGroupId>ba734417-7b64-340b-0000-000000000000</parentGroupId>
+            <position>
+                <x>8.0</x>
+                <y>200.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.10.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>JDBC Connection Pool</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>
+                            <name>putsql-sql-statement</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>
+                            <name>Support Fragmented Transactions</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>
+                            <name>database-session-autocommit</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                        <value>
+                            <name>Transaction Timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>
+                            <name>Obtain Generated Keys</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>
+                            <name>rollback-on-failure</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                        <value>
+                            <name>Job Properties</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>JDBC Connection Pool</key>
+                        <value>37c6329f-90b9-388d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>putsql-sql-statement</key>
+                        <value>insert into daily_application_report(created_time,application_type,channel,call_transfer_flag,customer_type,birthday,device_sales_flag,remote_support_flag,gender,sales_order_status,order_submit_date,prefecture,customer_account_number,mobileline_sales_flag,international_roaming_flag, network_profile_type,customer_account_status, easy_id, call_waiting_flag, preferred_phone_number_flag,original_order_submit_date,sales_order_id,product_id,mobile_security_flag,announce_mail_flag,mobile_line_status,mnp_number,shop_group_id,insert_timestamp,i_filter_flag,minor_flag,bpi_id,unlimited_international_talk_flag,product_name,order_item_id,shop_id,accessory_sales_flag,product_type,voice_mail_flag,privacy_info_flag,phone_number,priority_call_flag,sales_order,wifi_econnect_flag,device_warranty_hikari_tsushin_flag,order_completion_date,service_uid,imsi,iccid,mvno_ra_number,mvno_shop_id,mvno_contract_start_date,coupon_serial_number,card_company_for_monthly_payment,ichiba_order_id) SELECT now(),mt.application_type,mt.channel,mt.call_transfer_flag,mt.customer_type,mt.birthday,mt.device_sales_flag,mt.remote_support_flag,mt.gender,mt.sales_order_status,mt.order_submit_date,mt.prefecture,mt.customer_account_number,mt.mobileline_sales_flag,mt.international_roaming_flag,mt. network_profile_type,mt.customer_account_status,mt. easy_id,mt. call_waiting_flag,mt. preferred_phone_number_flag,mt.original_order_submit_date,mt.sales_order_id,mt.product_id,mt.mobile_security_flag,mt.announce_mail_flag,mt.mobile_line_status,mt.mnp_number,mt.shop_group_id,mt.insert_timestamp,mt.i_filter_flag,mt.minor_flag,mt.bpi_id,mt.unlimited_international_talk_flag,mt.product_name,mt.order_item_id,mt.shop_id,mt.accessory_sales_flag,mt.product_type,mt.voice_mail_flag,mt.privacy_info_flag,mt.phone_number,mt.priority_call_flag,mt.sales_order,mt.wifi_econnect_flag,mt.device_warranty_hikari_tsushin_flag,mt.order_completion_date,mt.service_uid,mt.imsi,mt.iccid,mt.mvno_ra_number,mt.mvno_shop_id,mt.mvno_contract_start_date,mt.coupon_serial_number,mt.card_company_for_monthly_payment,mt.ichiba_order_id FROM daily_application_report_temp mt where mt.vld_ind=1 and mt.reason is null</value>
+                    </entry>
+                    <entry>
+                        <key>Support Fragmented Transactions</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>database-session-autocommit</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Transaction Timeout</key>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>100</value>
+                    </entry>
+                    <entry>
+                        <key>Obtain Generated Keys</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>rollback-on-failure</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Job Properties</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Insert into Main</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>retry</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.PutSQL</type>
+        </processors>
+    </snippet>
+    <timestamp>07/11/2022 16:14:44 JST</timestamp>
+</template>
